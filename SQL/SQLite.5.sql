@@ -1,4 +1,4 @@
--- Month over month growth comparison for 2022 and 2023, for eg: jan 2022 vs jan 2023 
+-- Month over month growth comparison for 2022 and 2023
 WITH cte AS (
   SELECT 
     STRFTIME('%Y', order_date) AS year, 
